@@ -1,0 +1,70 @@
+PODS:
+  - DKImagePickerController (3.5.1):
+    - DKImagePickerController/Camera (= 3.5.1)
+    - DKImagePickerController/ImageManager (= 3.5.1)
+  - DKImagePickerController/Camera (3.5.1)
+  - DKImagePickerController/ImageManager (3.5.1)
+  - ImageSlideshow (1.2.0):
+    - ImageSlideshow/Core (= 1.2.0)
+  - ImageSlideshow/Core (1.2.0)
+  - PinCodeTextField (0.0.4):
+    - PinCodeTextField/Swift (= 0.0.4)
+  - PinCodeTextField/Core (0.0.4)
+  - PinCodeTextField/Swift (0.0.4):
+    - PinCodeTextField/Core
+  - PopupDialog (0.5.4)
+  - Realm (2.8.3):
+    - Realm/Headers (= 2.8.3)
+  - Realm/Headers (2.8.3)
+  - RealmSwift (2.8.3):
+    - Realm (= 2.8.3)
+  - RSLoadingView (1.1.0)
+
+DEPENDENCIES:
+  - DKImagePickerController (from `https://github.com/zhangao0086/DKImagePickerController.git`, branch `master`)
+  - ImageSlideshow (from `https://github.com/zvonicek/ImageSlideshow`, branch `master`)
+  - PinCodeTextField (from `https://github.com/tkach/PinCodeTextField`, branch `master`)
+  - PopupDialog (from `https://github.com/Orderella/PopupDialog.git`, branch `master`)
+  - RealmSwift
+  - RSLoadingView
+
+EXTERNAL SOURCES:
+  DKImagePickerController:
+    :branch: master
+    :git: https://github.com/zhangao0086/DKImagePickerController.git
+  ImageSlideshow:
+    :branch: master
+    :git: https://github.com/zvonicek/ImageSlideshow
+  PinCodeTextField:
+    :branch: master
+    :git: https://github.com/tkach/PinCodeTextField
+  PopupDialog:
+    :branch: master
+    :git: https://github.com/Orderella/PopupDialog.git
+
+CHECKOUT OPTIONS:
+  DKImagePickerController:
+    :commit: 603c644ee16683b01ec303a35192bb89cc818704
+    :git: https://github.com/zhangao0086/DKImagePickerController.git
+  ImageSlideshow:
+    :commit: 0811a21e8c3eda49a8913d5b4b23c9c3e3aeaaa8
+    :git: https://github.com/zvonicek/ImageSlideshow
+  PinCodeTextField:
+    :commit: 4cba52c19aa901f3acaebf382d83b04d91f6802c
+    :git: https://github.com/tkach/PinCodeTextField
+  PopupDialog:
+    :commit: 7599706dfff64af24b54317874c8f56bddfade72
+    :git: https://github.com/Orderella/PopupDialog.git
+
+SPEC CHECKSUMS:
+  DKImagePickerController: 0815b0a180ec4d1b813c5fc1524c807bfaa60797
+  ImageSlideshow: a335db967a121fafa869c676c99e5665dfa0ea8b
+  PinCodeTextField: 86e9487ce4293f414a86ed4cb9d08539e3742797
+  PopupDialog: 2993779aa88470585f4e9c3f240382ea82f98ef0
+  Realm: 3601ef091c8c499a31101d8563b991e75546cdce
+  RealmSwift: 8183818515471b01a99abdd2970f8e4fd52b6f4a
+  RSLoadingView: b9cdf4970da28e5d4b306784688e640696dd80d3
+
+PODFILE CHECKSUM: c9261ad424fd320d63e271e801990500e575693f
+
+COCOAPODS: 1.1.1

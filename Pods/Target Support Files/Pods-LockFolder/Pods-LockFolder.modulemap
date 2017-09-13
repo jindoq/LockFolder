@@ -1,0 +1,6 @@
+framework module Pods_LockFolder {
+  umbrella header "Pods-LockFolder-umbrella.h"
+
+  export *
+  module * { export * }
+}
